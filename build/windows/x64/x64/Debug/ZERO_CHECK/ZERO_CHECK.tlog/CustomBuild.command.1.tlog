@@ -1,0 +1,10 @@
+^C:\FLUUTERPROJECTS\TEMP\CARTRACK\BUILD\WINDOWS\X64\CMAKEFILES\E3B7B71814B358320AE4827C61973B26\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/fluuterprojects/temp/cartrack/windows -BC:/fluuterprojects/temp/cartrack/build/windows/x64 --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/fluuterprojects/temp/cartrack/build/windows/x64/cartrack.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

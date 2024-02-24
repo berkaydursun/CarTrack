@@ -1,0 +1,28 @@
+^C:\FLUUTERPROJECTS\TEMP\CARTRACK\BUILD\WINDOWS\X64\CMAKEFILES\1A61B791B214767279E3B2E898F9DC0E\FLUTTER_WINDOWS.DLL.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env FLUTTER_ROOT=C:\src\flutter PROJECT_DIR=C:\fluuterprojects\temp\cartrack FLUTTER_ROOT=C:\src\flutter FLUTTER_EPHEMERAL_DIR=C:\fluuterprojects\temp\cartrack\windows\flutter\ephemeral PROJECT_DIR=C:\fluuterprojects\temp\cartrack FLUTTER_TARGET=C:\fluuterprojects\temp\cartrack\lib\main.dart DART_DEFINES=RkxVVFRFUl9XRUJfQVVUT19ERVRFQ1Q9dHJ1ZQ==,RkxVVFRFUl9XRUJfQ0FOVkFTS0lUX1VSTD1odHRwczovL3d3dy5nc3RhdGljLmNvbS9mbHV0dGVyLWNhbnZhc2tpdC9mNDBlOTc2YmVkZmY1N2U2OWUxYjNkODlhN2MyYTNjNjE3YTAzZGFkLw== DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false PACKAGE_CONFIG=C:\fluuterprojects\temp\cartrack\.dart_tool\package_config.json C:/src/flutter/packages/flutter_tools/bin/tool_backend.bat windows-x64 Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\FLUUTERPROJECTS\TEMP\CARTRACK\BUILD\WINDOWS\X64\CMAKEFILES\ADB87909BA92C67D3B84989ED757D6C9\FLUTTER_ASSEMBLE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\FLUUTERPROJECTS\TEMP\CARTRACK\WINDOWS\FLUTTER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/fluuterprojects/temp/cartrack/windows -BC:/fluuterprojects/temp/cartrack/build/windows/x64 --check-stamp-file C:/fluuterprojects/temp/cartrack/build/windows/x64/flutter/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
